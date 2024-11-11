@@ -1,4 +1,7 @@
-  - apiVersion: v2
+apiVersion: v1
+entries:
+  nifi:
+  - version: 0.0.1
     appVersion: 1.23.2
     created: "2024-11-01T23:46:27.480448244Z"    
     dependencies:
@@ -30,7 +33,5 @@
     - email: gforeman@spinnerconsulting.com
       name: gregforeman
       url: https://github.com/gforeman02
-    name: nifi
     urls:
     - nifi/nifi-0.0.1.tgz
-    version: 0.0.1
