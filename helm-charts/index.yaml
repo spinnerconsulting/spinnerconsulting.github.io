@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
   nifi:
-  - version: 0.0.1
+  - apiVersion: v2
     appVersion: 1.23.2
-    created: "2024-11-01T23:46:27.480448244Z"    
+    created: "2024-11-12T10:01:12.946128053-05:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -24,14 +24,19 @@ entries:
       version: ~1.2.4
     description: Apache NiFi is a software project from the Apache Software Foundation
       designed to automate the flow of data between software systems.
-    digest: da4ba5cb7cfcaba18c6bcd25f0330ec8e6b737e63a2d945dd858393e09aad9aa
+    digest: a7c6828db3fd53a3a078c722876d4f2eba9f801817a1c6b35affd5b005b090a2
     home: https://nifi.apache.org/
     icon: https://svn.apache.org/repos/asf/nifi/site/trunk/images/niFi-logo-horizontal-scaled.png
     keywords:
     - nifi
+    - data
+    - process
     maintainers:
     - email: gforeman@spinnerconsulting.com
-      name: gregforeman
+      name: Gregory M. Foreman
       url: https://github.com/gforeman02
+    name: nifi
     urls:
     - nifi/nifi-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-11-12T10:01:12.927797779-05:00"
